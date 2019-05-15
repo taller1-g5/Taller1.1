@@ -194,8 +194,8 @@ public class GoldModel extends GameModel {
 
 		// Remove the coin at the new collector position (if any)
 		if (this.coins.remove(this.collectorPos)) {
-			this.score=score+3;
-		}
+			this.score=score+2;
+
 
 		// Check if all coins are found
 		if (this.coins.isEmpty()) {
@@ -209,7 +209,7 @@ public class GoldModel extends GameModel {
 
 		// Add a new coin (simulating moving one coin)
 		addCoin();
-
+		}
 	}
 
 	/**
