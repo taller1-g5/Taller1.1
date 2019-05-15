@@ -1,6 +1,5 @@
 package lab1;
 
-
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
@@ -64,10 +63,11 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-
-
+<<<<<<< HEAD
+		this.startGameButton = new JButton("Let's Play");
+=======
 		this.startGameButton = new JButton("Let's Go!!!");
-
+>>>>>>> aba01dcd865fd120fb69132bf7ea7a036de39ba8
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
